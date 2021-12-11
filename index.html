@@ -5,86 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Open API wheater</title>
 </head>
 
 <body>
     <div class="container">
         <div class="content">
-            <div class="display-top">
-                <h1>23&deg;</h1>
-                <p>jakarta, ID
-                </p>
-                <div class="title">Wheater Waveast</div>
-            </div>
-            <div class="display-center">
-                <ul class="icons">
-                    <li>
-                        <div class="celcius">21&deg;</div>
-                        <img class="icon-1" src="icons/sunny.png" alt="" srcset="">
-                        <div class="time-oclock">12:00</div>
-                        <div class="pm-am">pm</div>
-                    </li>
-                    <li>
-                        <div class="celcius">20&deg;</div>
-                        <img class="icon-2" src="icons/sun.png" alt="" srcset="">
-                        <div class="time-oclock">01:00</div>
-                        <div class="pm-am">pm</div>
-                    </li>
-                    <li>
-                        <div class="celcius">20&deg;</div>
-                        <img class="icon-3" src="icons/weather-forecast.png" alt="" srcset="">
-                        <div class="time-oclock">02:00</div>
-                        <div class="pm-am">pm</div>
-                    </li>
-                    <li>
-                        <div class="celcius">19&deg;</div>
-                        <img class="icon-4" src="icons/cloudy-day.png" alt="" srcset="">
-                        <div class="time-oclock">03:00</div>
-                        <div class="pm-am">pm</div>
-                    </li>
-                    <li>
-                        <div class="celcius">18&deg;</div>
-                        <img class="icon-5" src="icons/rain.png" alt="" srcset="">
-                        <div class="time-oclock">04:00</div>
-                        <div class="pm-am">pm</div>
-                    </li>
-                </ul>
-            </div>
-            <div class="display-bottom">
-                <ul class="icons">
-                    <li>
-                        <div class="celcius">21&deg;</div>
-                        <img class="icon-1" src="icons/sunny.png" alt="" srcset="">
-                        <div class="day">sun</div>
-                    </li>
-                    <li>
-                        <div class="celcius">20&deg;</div>
-                        <img class="icon-2" src="icons/sun.png" alt="" srcset="">
-                        <div class="day">mon</div>
-                    </li>
-                    <li>
-                        <div class="celcius">20&deg;</div>
-                        <img class="icon-3" src="icons/weather-forecast.png" alt="" srcset="">
-                        <div class="day">tue</div>
-                    </li>
-                    <li>
-                        <div class="celcius">19&deg;</div>
-                        <img class="icon-4" src="icons/cloudy-day.png" alt="" srcset="">
-                        <div class="day">thurs</div>
-                    </li>
-                    <li>
-                        <div class="celcius">18&deg;</div>
-                        <img class="icon-5" src="icons/rain.png" alt="" srcset="">
-                        <div class="day">fri</div>
-                    </li>
-                </ul>
-                </ul>
+            <h1 class="time">15:30</h1>
+            <img id="status" src="./icons/sun.png" width="60px" height="60px">
+            <div class="weather">
+                <p class="cloud">Weather : Clouds </p>
+                <p class="description">description : scattered clouds</p>
+                <p class="temp">temp : 305 , feels_like : 312</p>
             </div>
         </div>
-
-        <script src="script.js"></script>
+    </div>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
