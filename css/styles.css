@@ -35,3 +35,9 @@
 .weather p {
   padding-top: 10px;
 }
+
+img#status{
+  background-image:url('../icons/sun.png');
+  width:60px;
+  height:60px;
+}
