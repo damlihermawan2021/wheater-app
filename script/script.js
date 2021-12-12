@@ -28,15 +28,15 @@ fetch(
     if (weatherval[0].main === "Clouds") {
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundImage = `url(${cloudurl})`;
-      document.getElementById("status").src = "icons/cloudy-day.png";
+      document.getElementById("status").src = "./icons/cloudy-day.png";
     } else if (weatherval[0].main === "Haze") {
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundImage = `url(${haze})`;
-      document.getElementById("status").src = "icons/weather-forecast.png";
+      document.getElementById("status").src = "./icons/weather-forecast.png";
     } else if (weatherval[0].main === "Rain") {
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundImage = `url(${rain})`;
-      document.getElementById("status").src = "icons/rain.png";
+      document.getElementById("status").src = "./icons/rain.png";
     }
 
     time.innerHTML = `${date.getHours()}:${date.getMinutes()}`;
